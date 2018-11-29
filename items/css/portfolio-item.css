@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.nav-link{
+	color: #008269 !important;
+}
+
+.form-control{
+	padding: 1.375rem .75rem;
+}
+#super-cards .col{
+	max-width: 20%;
+	flex-basis: 20%;
+}
+@media(max-width: 580px){
+	#super-cards.row .col{
+		max-width: 100% !important;
+		flex-basis:100% !important;
+	}
+}
+@media(max-width: 992px){
+	#super-cards .col{
+		max-width: 33.333% !important;
+		flex-basis:33.333% !important;
+	}
+}
+@media(max-width: 768px){
+	#super-cards .col{
+		max-width: 50% !important;
+		flex-basis:50% !important;
+	}
+}
+
+/* MAIN CONTAINER */
+.feature-cards .container{
+  max-width: 1140px !important;
+}
+
+/* CARD INSIDE THE CONTAINER */
+.feature-cards .container .card{
+  border: 1px solid rgba(0,0,0,0);
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* CARD HOVER - BORDER */
+.feature-cards .container .card:hover{
+  border-color: rgba(0,0,0,.125) !important;
+}
+
+/* A TAG INSIDE ROW */
+.feature-cards .container a{
+  text-decoration: none;
+  height: 100%
+}
+
+/* TITLE INSIDE CARD */
+.feature-cards .container .title{
+  font-size: 16px;
+  color: #21ce99;
+}
+
+/* INFO INSIDE CARD */
+.feature-cards .container .info{
+  color: black;
+}
+.icn{
+	font-size: 35px;
+	margin-right: 6%;
+	color: #008269de;
+	cursor: pointer;
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color:#008269de;
+}
+.learn-more{
+	color: #008269de;
+	margin-left: 20px;
+
+}
+.footer-container{
+	/*margin: 50px!important;*/
+	margin: 0 auto !important;
+	max-width: 1100px !important;
+	font-size: 12px;
+    color: #80808099;
+ }
+.footer-container .containers{
+	padding: 0px 25px !important;
+
+}
+ .fa-hourglass-start,
+ .fa-money-bill-alt,
+ .fa-question,
+ .fa-user-circle,
+ .fa-toolbox{
+ 	color:#00826999;
+ 	font-size: 120px;
+ 	
+ }
+ .my-3:hover{
+ 	color:#00826999;
+ 	cursor: pointer;
+
+ }
+ a{
+ 		color:black;
+ }
+ a:hover{
+ 	text-decoration: none;
+ }
+ .col-sm-6{
+ 	text-align: center;
+ }
+#super-cards{
+	margin: 150px 0px;
+}
+.new-class{
+	text-align: center;
+	margin: 50px 0px;
+	border: 1.5px solid #00826999;
+    padding: 70px 0px;
+    border-radius: 5px;
+}
+
+.fa-hands-helping{
+	font-size: 180px;
+	color:#00826999;
+}

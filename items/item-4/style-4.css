@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	font-family: "DIN Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.imag {
+	background-image: url('images/imag3.jpg');
+	background-position: center;
+    background-size: cover;
+    height: 656px;
+    width: 50%;
+}
+.main-container {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+.info {
+	margin-left: 3em;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 412px;
+}
+h2 {
+	font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    line-height: 30px;
+    margin: 0 0 16px;
+}
+
+form {
+	font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    /*line-height: 19px;*/
+}
+.bg-light{
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1.5em !important;
+}
+.form-control:hover {
+    border: 1px solid lightgrey !important;
+ background-color: white !important;
+}
+.form-text {
+  color: rgb(33, 206, 153);
+    font-size: 1em;
+    font-weight: 500;
+}
+.btn {
+    box-shadow: none;
+    margin-top: 3.5em;
+    width: 140px;
+    border-radius: 4px;
+    padding: 0px 48px;
+    background: rgb(33, 206, 153);
+    border-color: rgb(33, 206, 153);
+   
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 19px;
+       font: 400 13.3333px Arial;
+}
+.btn:hover {
+     background: rgb(33, 206, 153);
+}
+span {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 19px;
+    margin: 0px;
+     color: white;
+}
